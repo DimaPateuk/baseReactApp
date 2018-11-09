@@ -1,0 +1,58 @@
+{
+  "name": "basereactapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config ./webpack/webpack.development.config.js --watch",
+    "dev-server": "webpack-dev-server --config ./webpack/webpack.dev-server.config.js",
+    "prod": "webpack --config ./webpack/webpack.prod.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DimaPateuk/baseReactApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DimaPateuk/baseReactApp/issues"
+  },
+  "homepage": "https://github.com/DimaPateuk/baseReactApp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-async-to-promises": "^1.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "core-js": "^2.5.7",
+    "css-loader": "^1.0.1",
+    "eslint": "^5.8.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "html-webpack-plugin": "^3.2.0",
+    "immutable": "^4.0.0-rc.12",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1",
+    "redux-immutable": "^4.0.0",
+    "reselect": "^4.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "uid": "0.0.2",
+    "webpack": "^4.25.1",
+    "webpack-async-chunk-names-plugin": "^0.1.1",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4",
+    "whatwg-fetch": "^3.0.0"
+  }
+}

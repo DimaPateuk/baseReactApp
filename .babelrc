@@ -1,0 +1,27 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "modules": false,
+                "targets": {
+                    "browsers": [
+                        "ie >= 11"
+                    ]
+                },
+                "useBuiltIns": "usage",
+                "exclude": [
+                    "transform-async-to-generator",
+                    "transform-regenerator"
+                ]
+            }
+        ],
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        "async-to-promises",
+        "transform-class-properties",
+        "@babel/plugin-proposal-object-rest-spread",
+        "@babel/plugin-syntax-dynamic-import"
+    ]
+}
